@@ -1,4 +1,4 @@
-<img src="http://www.eduardopires.net.br/wp-content/uploads/2016/12/EquinoxLogo.png" alt="Equinox Project"> 
+<img src="https://www.eduardopires.net.br/imagens/EquinoxLogoPequenoFundoBranco.png" alt="Equinox Project"> 
 
 
 What is the Equinox Project?
@@ -14,9 +14,12 @@ The goal of this project is implement the most common used technologies and shar
 ## Give a Star! :star:
 If you liked the project or if Equinox helped you, please give a star ;)
 
+## Want to learn everything?  :mortar_board:
+Check my online courses at [desenvolvedor.io](https://desenvolvedor.io)
+
 ## How to use:
-- You will need the latest Visual Studio 2017 and the latest .NET Core SDK.
-- **Please check if you have installed the same runtime version (SDK) described in global.json**
+- You will need the latest Visual Studio 2019 and the latest .NET Core SDK.
+- ***Please check if you have installed the same runtime version (SDK) described in global.json***
 - The latest SDK and tools can be downloaded from https://dot.net/core.
 
 Also you can run the Equinox Project in Visual Studio Code (Windows, Linux or MacOS).
@@ -25,16 +28,16 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 
 ## Technologies implemented:
 
-- ASP.NET Core 2.2 (with .NET Core 2.2)
+- ASP.NET Core 3.1 (with .NET Core 3.1)
  - ASP.NET MVC Core 
- - ASP.NET WebApi Core
+ - ASP.NET WebApi Core with JWT Bearer Authentication
  - ASP.NET Identity Core
-- Entity Framework Core 2.2
+- Entity Framework Core 3.1
 - .NET Core Native DI
 - AutoMapper
 - FluentValidator
 - MediatR
-- Swagger UI
+- Swagger UI with JWT support
 
 ## Architecture:
 
@@ -48,6 +51,12 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - Repository and Generic Repository
 
 ## News
+
+**v1.5 - 01/22/2020**
+- Migrated for .NET Core 3.1.1
+- All dependencies is up to date
+- Added JWT (Bearer) authentication for WebAPI
+- Added JWT support in Swagger
 
 **v1.4 - 02/14/2019**
 - Migrated for .NET Core 2.2.1
